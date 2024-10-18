@@ -1,0 +1,31 @@
+body{
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: left;
+    flex-direction: column;
+  
+  }
+
+  .clock{
+    color:white;
+    font-size: 6rem;
+    font-weight: bold;
+    font-family: monospace;
+    text-shadow: 2px 2px 4px hsla(0, 0, 0, 0.5);
+    text-align: left;
+}
+.message{
+    margin-top: 20px;
+    font-size: 4rem;
+    text-align: left;
+    color: white;
+    font-family: monospace;
+    font-weight: bold;
+}
